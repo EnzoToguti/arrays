@@ -1,36 +1,77 @@
-//------listas------\\
+//-----------------AULA DE FUCTION------------------------------------------
+//function calcularPedido(preco, quantidade) {
+//  let total = preco * quantidade;
+//  return total;
+//};
 
-//exercicio 1
+//let resultado = calcularPedido(12, 3);
+//console.log('Valor do pedido: ' + resultado);
+//---------------------------------------------------------------------------
 
-const frutas = ["Banana","Maçã","Laranja","Manga","Uva"]
+//----------------LISTAS------------------------------------------
+//1
+/* let frutas = ['Maçã', 'Banana', 'Uva', 'Laranja', 'Morango'];
 
+// Mostrando a lista completa
 console.log(frutas);
+
+// Mostrando a primeira fruta
 console.log(frutas[0]);
-console.log(frutas[4]);
 
-//exercicio 2
+// Mostrando a última fruta
+console.log(frutas[4]); */
 
-const numeros = [1, 2, 3, 4, 5, 6];
+//2
+/* let numeros = [10, 5, 8, 2, 7, 3];
+
 let soma = 0;
 
-for(let i = 0; i < numeros.length; i++) {
-    soma += numeros[i]
+for (let i = 0; i < numeros.length; i++) {
+  soma = soma + numeros[i];
 }
 
-console.log(soma);
+console.log('Soma total: ' + soma); */
 
-//exercicio 3
+//3
+let numeros2 = [15, 42, 7, 98, 23, 61, 4, 12, 87, 30];
 
-const listanum = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-const maior = Math.max(...listanum);
+let maior = numeros2[0];
 
-console.log(maior);
+for (let i = 0; i < numeros2.length; i++) {
+  if (numeros2[i] > maior) {
+    maior = numeros2[i];
+  }
+}
 
-//------tuplas------\\
+console.log('Maior número: ' + maior);
 
-const aluno = ["Enzo", 16, "2° Tec"]
-const [nome, idade, turma] = aluno;
+//-----------------------------------------------------------------
 
-console.log(nome);
-console.log(idade + " anos");
-console.log(turma);
+//------------------------TUPLAS-----------------------------------
+/*//1
+let aluno = ['Carlos', 17, '3°A'];
+
+console.log(aluno);
+
+//2
+let produto = ['Notebook', 3500, 12];
+
+console.log('Produto: ' + produto[0]);
+console.log('Preço: R$ ' + produto[1]);
+console.log('Estoque: ' + produto[2] + ' unidades');
+
+//3
+let filmes = [
+  ['Vingadores', 2019, 'Ação'],
+  ['Toy Story', 1995, 'Animação'],
+  ['Avatar', 2009, 'Ficção'],
+];
+
+for (let i = 0; i < filmes.length; i++) {
+  console.log('Filme: ' + filmes[i][0]);
+  console.log('Ano: ' + filmes[i][1]);
+  console.log('Gênero: ' + filmes[i][2]);
+  console.log('----------------');
+} */
+
+//-----------------------------------------------------------------
