@@ -33,7 +33,7 @@ for (let i = 0; i < numeros.length; i++) {
 console.log('Soma total: ' + soma); */
 
 //3
-let numeros2 = [15, 42, 7, 98, 23, 61, 4, 12, 87, 30];
+let numeros2 = [15, 42, 7, 98, 23, 61, 4, 12, 67, 30];
 
 let maior = numeros2[0];
 
